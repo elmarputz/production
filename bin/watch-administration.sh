@@ -6,6 +6,7 @@ export PROJECT_ROOT="${PROJECT_ROOT:-"$(dirname $CWD)"}"
 export ENV_FILE=${ENV_FILE:-"${PROJECT_ROOT}/.env"}
 
 source ${ENV_FILE}
+export APP_URL=${APP_URL}
 export HOST=${HOST:-"localhost"}
 export ESLINT_DISABLE
 export PORT
